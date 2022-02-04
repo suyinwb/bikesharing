@@ -1,5 +1,5 @@
-# Object file
-*.o
+#Adding config
+config.js
 
-# Ada Library Information
-*.ali
+#Mac changes files
+.DS_Store
