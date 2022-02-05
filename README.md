@@ -2,6 +2,12 @@
 
 ## Background
 
+Kate suggests that you use Citi Bike data that has been released to the public for your analysis. You agree, but then remind her that you must be cautious when looking at the data, as it applies specifically to New York City—Des Moines is quite different!
+
+You're excited to find out which data will and will not apply to Des Moines, drawing on both your data expertise and critical thinking skills. You'll also need to rely on Kate's salesmanship during the investor conversations. Kate can sell almost anything, but it's up to you to make sure she's selling something viable.
+
+This zip file contains all the August 2019 data. We'll use data from August because there is likely more traffic during the summer months.
+
 ## Overview of Project
 
 ### Purpose
@@ -11,15 +17,17 @@
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-Create a map with GeoJSON earthquake data from the USGS website. The requirements are stated in [Purpose](#purpose)
+[Purpose](#purpose)
 
 #### 2. Identify the Datasource
-
+From https://ride.citibikenyc.com/system-data.
+August 2019 data: 201908-citibike-tripdata.csv.zip
 
 ### 3. Define Strategy & Metrics
-**Resource:** Javascript, CSS, HTML, Data-Driven Documents (D3) library, Leaflets.js, API, GeoJSON, Mapbox
+**Resource:** Tableau
 
 #### 4. Data Retrieval Plan
+Stated in [2. Identify the Datasource](#2-identify-the-datasource)
 
 #### 5. Assemble & Clean the Data
 
