@@ -32,6 +32,46 @@ What might the key costs be in a bike-share business? You mull over this questio
 
 Your investors are curious about the bike utilization during the month of August. You'll need to show the utilization of each Citi Bike in New York City. This will continue to help you understand the needs of a bike-sharing business in Des Moines. Now that we've found the number of trips per bike during the month of August, we should figure out how long those rides are and if there are bikes that need more attention than others. We'll use the bike ID as a metric for this part of the analysis and create a packed bubbles visualization.
 
+Now that we've started to answer some questions with our data, we need to begin piecing it all together. Each of these pieces will lead us closer to being able to tell a story with our data. Let's explore the role of Tableau dashboards in the data storytelling process. In Tableau, dashboards can help us identify areas that might need to be explored more deeply. For example, if one map seems to have more popular locations, we may need to look more closely at how many bikes are stationed in those areas and whether there are enough of them.
+
+---
+
+DESIGNING DASHBOARD
+
+The main purpose of a dashboard is not necessarily to tell a story, but rather to display data in a readable format.
+
+When designing a dashboard, it's important to prioritize which worksheets go on the dashboard first. Generally, the first worksheet will be the most prominent and show the most informative data, so be sure to get the data you care the most about on the page first.
+
+Let's look at a few key aspects of designing a dashboard: purpose and audience, filtering, highlighting, and objects.
+
+PURPOSE & AUDIENCE
+
+It's important to understand who your audience is when creating a dashboard in order to ensure the data is relevant to them. For example, an executive may be more interested in the specific locations where bikes will be stored, while a developer may want to know specific data about the site, like the location, number of people using it, and more.
+
+FILTERING
+
+Filtering plays a big role in operability of your dashboard. You can use filters to display certain subsets of data.
+
+HIGHLIGHTING
+
+The highlighting feature allows you to select subsets of data. To highlight, drag your mouse over a data subset, which will essentially filter out everything but the data you selected.
+
+OBJECTS
+
+Most of the time, you'll add worksheets to your dashboard, but occasionally you may need to add links or photos. For example, you may want to add your company logo at the top of a worksheet, or add a link to an external website. You can add both of these items to your dashboard using the objects. You can drag these objects into your dashboard. You should be aware of two types of objects: tiled objects and floating objects. Tiled objects are essentially a structured way to arrange your dashboard. Floating objects allow you to change the size of the object and can overlap with other objects.
+
+STRUCTURING WORKSHEETS IN A DASHBOARD
+
+Worksheets in your dashboard should be structured in an organized, thoughtful way. Include a title for your worksheet, and put the most important data in the top left corner. This is where your eyes will gravitate to first, so make it easy to read.
+After adding the most important information in the top left, you can add more information on the right. Most of the time, your audience will read the information in the dashboard from left to right. Then, place the rest of the worksheets around your primary worksheet.
+Remember, structuring worksheets is a muscle that you will build over time—but it takes practice!
+
+ENSURE FAST LOAD TIME
+
+Something you need to consider is the load time for your data, which can be affected by the data source you're using. For example, if you're using a database from a database server, Tableau will need to query the database. Depending on how much data there is, your dashboard can be slowed down significantly.
+
+
+
 
 
 ### Purpose
