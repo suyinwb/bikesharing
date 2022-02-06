@@ -34,6 +34,14 @@ Your investors are curious about the bike utilization during the month of August
 
 Now that we've started to answer some questions with our data, we need to begin piecing it all together. Each of these pieces will lead us closer to being able to tell a story with our data. Let's explore the role of Tableau dashboards in the data storytelling process. In Tableau, dashboards can help us identify areas that might need to be explored more deeply. For example, if one map seems to have more popular locations, we may need to look more closely at how many bikes are stationed in those areas and whether there are enough of them.
 
+We want to show investors the most important relevant data so that they will support the Des Moines bike-sharing business.
+
+Congratulations—your investors were impressed with your work on the NYC Citi Bike Dashboard. The data was readable and digestible. Now they want something that tells a story about the data you presented. It's time to convince them that this bike-sharing idea could work in Des Moines, Iowa.
+
+Dashboards are intended as a way to view data side by side. Stories also allow us to view different data simultaneously, but their main purpose is to tell a story, share a point of view, or convince an audience to take a particular stance.
+
+The purpose of this story is to help them determine whether they should invest in a bike-sharing program in Des Moines.
+
 ---
 
 DESIGNING DASHBOARD
@@ -70,7 +78,25 @@ ENSURE FAST LOAD TIME
 
 Something you need to consider is the load time for your data, which can be affected by the data source you're using. For example, if you're using a database from a database server, Tableau will need to query the database. Depending on how much data there is, your dashboard can be slowed down significantly.
 
+---
+STORIES
 
+CREATE A STORY
+
+Stories do this by sequencing visualizations to help the audience understand the bigger picture. In our case, we want to create a story that explains why you think, given the data, that starting a bike sharing company in Des Moines is a good idea.
+
+ADD STORY POINTS
+
+Tableau stories have a feature called story points. Story points are simply different points you would like to make about your data. Think of them like the pages in a graphic novel. No image is the same, but they are all part of the larger story. This is the goal of story points.
+
+DATA VISUALISATION PROCESS
+
+When creating Tableau stories, or data visualizations in general, there's a general process that should be followed. You can use this process for most visualizations you'll create.
+
+1. Select your questions. During this step, you'll consider which results you want to share with your audience. What do they want to see? How can we use that information to make their decision-making process easier?
+2. Execute independent research. You'll need to look at other relevant pieces of information to build a bigger picture. Search other sources to find information that will make your visualization more powerful.
+3. Craft your Tableau story. This is when you create your story, primarily from worksheets and other visuals, with descriptions for each of them.
+4. Create a written analysis. The written analysis is intended to provide additional insight into what we're trying to convey to our audience. This is a good place to add extra detail so that everyone can get on the same page.
 
 
 
