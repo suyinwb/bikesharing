@@ -76,60 +76,6 @@ Additional:
 
 ## Analysis And Challenges
 
-DESIGNING DASHBOARD
-
-The main purpose of a dashboard is not necessarily to tell a story, but rather to display data in a readable format.
-
-When designing a dashboard, it's important to prioritize which worksheets go on the dashboard first. Generally, the first worksheet will be the most prominent and show the most informative data, so be sure to get the data you care the most about on the page first.
-
-Let's look at a few key aspects of designing a dashboard: purpose and audience, filtering, highlighting, and objects.
-
-PURPOSE & AUDIENCE
-
-It's important to understand who your audience is when creating a dashboard in order to ensure the data is relevant to them. For example, an executive may be more interested in the specific locations where bikes will be stored, while a developer may want to know specific data about the site, like the location, number of people using it, and more.
-
-FILTERING
-
-Filtering plays a big role in operability of your dashboard. You can use filters to display certain subsets of data.
-
-HIGHLIGHTING
-
-The highlighting feature allows you to select subsets of data. To highlight, drag your mouse over a data subset, which will essentially filter out everything but the data you selected.
-
-OBJECTS
-
-Most of the time, you'll add worksheets to your dashboard, but occasionally you may need to add links or photos. For example, you may want to add your company logo at the top of a worksheet, or add a link to an external website. You can add both of these items to your dashboard using the objects. You can drag these objects into your dashboard. You should be aware of two types of objects: tiled objects and floating objects. Tiled objects are essentially a structured way to arrange your dashboard. Floating objects allow you to change the size of the object and can overlap with other objects.
-
-STRUCTURING WORKSHEETS IN A DASHBOARD
-
-Worksheets in your dashboard should be structured in an organized, thoughtful way. Include a title for your worksheet, and put the most important data in the top left corner. This is where your eyes will gravitate to first, so make it easy to read.
-After adding the most important information in the top left, you can add more information on the right. Most of the time, your audience will read the information in the dashboard from left to right. Then, place the rest of the worksheets around your primary worksheet.
-Remember, structuring worksheets is a muscle that you will build over time—but it takes practice!
-
-ENSURE FAST LOAD TIME
-
-Something you need to consider is the load time for your data, which can be affected by the data source you're using. For example, if you're using a database from a database server, Tableau will need to query the database. Depending on how much data there is, your dashboard can be slowed down significantly.
-
----
-STORIES
-
-CREATE A STORY
-
-Stories do this by sequencing visualizations to help the audience understand the bigger picture. In our case, we want to create a story that explains why you think, given the data, that starting a bike sharing company in Des Moines is a good idea.
-
-ADD STORY POINTS
-
-Tableau stories have a feature called story points. Story points are simply different points you would like to make about your data. Think of them like the pages in a graphic novel. No image is the same, but they are all part of the larger story. This is the goal of story points.
-
-DATA VISUALISATION PROCESS
-
-When creating Tableau stories, or data visualizations in general, there's a general process that should be followed. You can use this process for most visualizations you'll create.
-
-1. Select your questions. During this step, you'll consider which results you want to share with your audience. What do they want to see? How can we use that information to make their decision-making process easier?
-2. Execute independent research. You'll need to look at other relevant pieces of information to build a bigger picture. Search other sources to find information that will make your visualization more powerful.
-3. Craft your Tableau story. This is when you create your story, primarily from worksheets and other visuals, with descriptions for each of them.
-4. Create a written analysis. The written analysis is intended to provide additional insight into what we're trying to convey to our audience. This is a good place to add extra detail so that everyone can get on the same page.
-
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
@@ -195,3 +141,57 @@ While the data from NYC is very positive for implementing a similar setup in a d
 
 
 ## Appendix
+
+DESIGNING DASHBOARD
+
+The main purpose of a dashboard is not necessarily to tell a story, but rather to display data in a readable format.
+
+When designing a dashboard, it's important to prioritize which worksheets go on the dashboard first. Generally, the first worksheet will be the most prominent and show the most informative data, so be sure to get the data you care the most about on the page first.
+
+Let's look at a few key aspects of designing a dashboard: purpose and audience, filtering, highlighting, and objects.
+
+PURPOSE & AUDIENCE
+
+It's important to understand who your audience is when creating a dashboard in order to ensure the data is relevant to them. For example, an executive may be more interested in the specific locations where bikes will be stored, while a developer may want to know specific data about the site, like the location, number of people using it, and more.
+
+FILTERING
+
+Filtering plays a big role in operability of your dashboard. You can use filters to display certain subsets of data.
+
+HIGHLIGHTING
+
+The highlighting feature allows you to select subsets of data. To highlight, drag your mouse over a data subset, which will essentially filter out everything but the data you selected.
+
+OBJECTS
+
+Most of the time, you'll add worksheets to your dashboard, but occasionally you may need to add links or photos. For example, you may want to add your company logo at the top of a worksheet, or add a link to an external website. You can add both of these items to your dashboard using the objects. You can drag these objects into your dashboard. You should be aware of two types of objects: tiled objects and floating objects. Tiled objects are essentially a structured way to arrange your dashboard. Floating objects allow you to change the size of the object and can overlap with other objects.
+
+STRUCTURING WORKSHEETS IN A DASHBOARD
+
+Worksheets in your dashboard should be structured in an organized, thoughtful way. Include a title for your worksheet, and put the most important data in the top left corner. This is where your eyes will gravitate to first, so make it easy to read.
+After adding the most important information in the top left, you can add more information on the right. Most of the time, your audience will read the information in the dashboard from left to right. Then, place the rest of the worksheets around your primary worksheet.
+Remember, structuring worksheets is a muscle that you will build over time—but it takes practice!
+
+ENSURE FAST LOAD TIME
+
+Something you need to consider is the load time for your data, which can be affected by the data source you're using. For example, if you're using a database from a database server, Tableau will need to query the database. Depending on how much data there is, your dashboard can be slowed down significantly.
+
+---
+STORIES
+
+CREATE A STORY
+
+Stories do this by sequencing visualizations to help the audience understand the bigger picture. In our case, we want to create a story that explains why you think, given the data, that starting a bike sharing company in Des Moines is a good idea.
+
+ADD STORY POINTS
+
+Tableau stories have a feature called story points. Story points are simply different points you would like to make about your data. Think of them like the pages in a graphic novel. No image is the same, but they are all part of the larger story. This is the goal of story points.
+
+DATA VISUALISATION PROCESS
+
+When creating Tableau stories, or data visualizations in general, there's a general process that should be followed. You can use this process for most visualizations you'll create.
+
+1. Select your questions. During this step, you'll consider which results you want to share with your audience. What do they want to see? How can we use that information to make their decision-making process easier?
+2. Execute independent research. You'll need to look at other relevant pieces of information to build a bigger picture. Search other sources to find information that will make your visualization more powerful.
+3. Craft your Tableau story. This is when you create your story, primarily from worksheets and other visuals, with descriptions for each of them.
+4. Create a written analysis. The written analysis is intended to provide additional insight into what we're trying to convey to our audience. This is a good place to add extra detail so that everyone can get on the same page.
