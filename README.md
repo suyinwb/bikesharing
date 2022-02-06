@@ -97,7 +97,6 @@ My questions be:
 9. Are the use cases above transferrable to Des Moines?
 
 
-
 #### 2. Identify the Datasource
 From https://ride.citibikenyc.com/system-data.
 August 2019 data: 201908-citibike-tripdata.csv.zip
@@ -113,20 +112,24 @@ Stated in [2. Identify the Datasource](#2-identify-the-datasource)
 #### 5. Assemble & Clean the Data
 Usertype dimension, there are two types of users: subscribers and customers. "Subscribers" refers to annual subscribers of the bike-sharing service, while "customers" are the short-term riders
 
-
 #### 6. Analyse for Trends
-
+Most of the riders are annual subscribers and uses the bike for short trips.
 
 #### 7. Acknowledging Limitations
+We do not have information on the financials to be able to tell us on revenue, profit, operational expenses to be able to suggest to the investors on this business in a succinct way.
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
->Deliverable 3: Dark Mode
+>Checkout Times
 
-![Dark Mode](resources/dark.png)
+![Checkout Times](resources/checkout_times.png)
+
+>Peak Hours
+
+![Peak Hours](resources/peak_hours.png)
 
 ## Summary
 
