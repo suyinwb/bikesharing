@@ -3,3 +3,6 @@ config.js
 
 #Mac changes files
 .DS_Store
+
+#data files
+*.csv

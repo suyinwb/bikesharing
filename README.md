@@ -42,7 +42,39 @@ Dashboards are intended as a way to view data side by side. Stories also allow u
 
 The purpose of this story is to help them determine whether they should invest in a bike-sharing program in Des Moines.
 
----
+To solidify the proposal, one of the key stakeholders would like to see a bike trip analysis.
+
+For this analysis, you’ll use Pandas to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, you’ll create a set of visualizations to:
+
+Show the length of time that bikes are checked out for all riders and genders
+Show the number of bike trips for all riders and genders for each hour of each day of the week
+Show the number of bike trips for each type of user and gender for each day of the week.
+Finally, you’ll add these new visualizations to the two you created in this module for your final presentation and analysis to pitch to investors.
+
+
+### Purpose
+
+To solidify the proposal, one of the key stakeholders would like to see a bike trip analysis.
+
+For this analysis, you’ll use Pandas to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, you’ll create a set of visualizations to:
+
+1. How many bike trips were recorded during the month of August? Since August is a beautiful time of the year to rent a bike, we want to use this data as a starting point to determine how many rides we could expect in the city of Des Moines.
+2. How does ridership grow over time? What is the proportion of short-term customers to annual subscribers?
+3. What are the peak riding hours in the month of August?
+4. What are the top bike stations in the city for Starting a journey?
+5. What are the top bike stations in the city for Ending a journey?
+6. What is the gender breakdown of active riders? Citi Bike tells us that 0 represents "Unknown," 1 represents "Male," and 2 represents "Female."
+7. What is the average trip duration by age? In general, the later the birth year, the longer the ride duration.
+8. Which bikes are most likely de for repair?
+9. How variable is bike utilisation?
+
+Additional:
+10. Show the length of time that bikes are checked out for all riders and genders
+11. Show the number of bike trips for all riders and genders for each hour of each day of the week
+12. Show the number of bike trips for each type of user and gender for each day of the week.
+13. Finally, you’ll add these new visualizations to the two you created in this module for your final presentation and analysis to pitch to investors.
+
+## Analysis And Challenges
 
 DESIGNING DASHBOARD
 
@@ -98,50 +130,46 @@ When creating Tableau stories, or data visualizations in general, there's a gene
 3. Craft your Tableau story. This is when you create your story, primarily from worksheets and other visuals, with descriptions for each of them.
 4. Create a written analysis. The written analysis is intended to provide additional insight into what we're trying to convey to our audience. This is a good place to add extra detail so that everyone can get on the same page.
 
-
-
-### Purpose
-
-1. How many bike trips were recorded during the month of August? Since August is a beautiful time of the year to rent a bike, we want to use this data as a starting point to determine how many rides we could expect in the city of Des Moines.
-2. How does ridership grow over time? What is the proportion of short-term customers to annual subscribers?
-3. What are the peak riding hours in the month of August?
-4. What are the top bike stations in the city for Starting a journey?
-5. What are the top bike stations in the city for Ending a journey?
-6. What is the gender breakdown of active riders? Citi Bike tells us that 0 represents "Unknown," 1 represents "Male," and 2 represents "Female."
-7. What is the average trip duration by age? In general, the later the birth year, the longer the ride duration.
-8. Which bikes are most likely de for repair?
-9. How variable is bike utilisation?
-
-
-
-
-
-
-
-
-
-
-## Analysis And Challenges
-
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
 
-[Purpose](#purpose)
+* Deliverable 1: Change Trip Duration to a Datetime Format
+* Deliverable 2: Create Visualizations for the Trip Analysis
+* Deliverable 3: Create a Story and Report for the Final Presentation
+
+What questions would you want answered if you were opening a bike-sharing business?
+My questions be:
+1. What's the ridership in NYC?
+2. Who are using the services?
+3. How are they paying?
+4. Profitability per trip / per user?
+5. Any recurring revenues? Return clients?
+6. How far do they ride? Use an average minutes-to-km calculation. This will help manage the pickup/dropoff stations.
+7. Are the riders local or tourist?
+8. From the peak and off-peak ridership data, can we make an assumption why they are using the bikes?
+9. Are the use cases above transferrable to Des Moines?
+
+
 
 #### 2. Identify the Datasource
 From https://ride.citibikenyc.com/system-data.
 August 2019 data: 201908-citibike-tripdata.csv.zip
 
+Datetime type August 2019 data AFTER Pandas manipulation: datetime_201908-citibike-tripdata.csv
+
 ### 3. Define Strategy & Metrics
-**Resource:** Tableau
+**Resource:** Tableau, Python, Pandas, Jupyter Notebook
 
 #### 4. Data Retrieval Plan
 Stated in [2. Identify the Datasource](#2-identify-the-datasource)
 
 #### 5. Assemble & Clean the Data
+Usertype dimension, there are two types of users: subscribers and customers. "Subscribers" refers to annual subscribers of the bike-sharing service, while "customers" are the short-term riders
+
 
 #### 6. Analyse for Trends
+
 
 #### 7. Acknowledging Limitations
 
@@ -156,27 +184,14 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Summary
 
+USA Census in 2021
+Des Moines Population: 709,466
+New York City Population: 8,820,000
+
+While the data from NYC is very positive for implementing a similar setup in a different city, we have enough data to answer these questions regarding Des Moines, Iowa:
+1. Is Des Moines walkable / have bike lines? What is the local transit infrastructure like?
+2. Is the city sprawling? If it is, then the general assumption is most people have cars and prefer to drive.
+
+
 
 ## Appendix
-
-Leaflet Quickstart Guide: https://leafletjs.com/examples/quick-start/
-
-Changing the map's style
-
-```
-mapbox/streets-v11
-mapbox/outdoors-v11
-mapbox/light-v10
-mapbox/dark-v10
-mapbox/satellite-v9
-mapbox/satellite-streets-v11
-```
-
-Setup push to branch with the command below and later work as usual in this branch
-```
-git push --set-upstream origin Simple_Leaflet_Map
-```
-
----
-Git Learning Lab: https://lab.github.com/
-Git Branching & Merging: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
