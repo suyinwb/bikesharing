@@ -123,6 +123,8 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
+[link to Tableau Public Dashboard](https://public.tableau.com/app/profile/suyin.b/viz/ModuleChallenge14_16441207136770/NYCCitibikeAnalysis-Story#1)
+
 >Checkout Times
 
 ![Checkout Times](resources/checkout_times.png)
