@@ -125,13 +125,36 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 [Link To Tableau Public Dashboard](https://public.tableau.com/app/profile/suyin.b/viz/ModuleChallenge14_16441207136770/NYCCitibikeAnalysis-Story#1)
 
+>Peak Hours
+
+![Peak Hours](resources/peak_hours.png)
+
+Lorem Ipsum
+
 >Checkout Times
 
 ![Checkout Times](resources/checkout_times.png)
 
->Peak Hours
+Lorem Ipsum
 
-![Peak Hours](resources/peak_hours.png)
+>Week Days Start Time Heatmap
+
+![Week Days Start Time Heatmap](resources/weekdays_starttime_heatmap.png)
+
+Lorem Ipsum
+
+>Week Days Start Time Heatmap by Gender
+
+![Week Days Start Time Heatmap Gender](resources/weekdays_starttime_heatmap_bygender.png)
+
+Lorem Ipsum
+
+
+>Subscribers VS Customers
+
+![Subscribers VS Customers](resources/subscriber_vs_customer.png)
+
+Lorem Ipsum
 
 ## Summary
 
