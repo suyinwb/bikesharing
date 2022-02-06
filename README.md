@@ -125,11 +125,14 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 [Link To Tableau Public Dashboard](https://public.tableau.com/app/profile/suyin.b/viz/ModuleChallenge14_16441207136770/NYCCitibikeAnalysis-Story#1)
 
+
+NYC Citi Bike utilisation for August 2019 is 2.34M with a large percentage of the annual subscription users. The top starting stations are all located within Manhattan.
+
 >Peak Hours
 
 ![Peak Hours](resources/peak_hours.png)
 
-Lorem Ipsum
+As we can see from the above chart, the peak usage for the bikes coincides with rush hours at 8am-9am and 6pm-7pm. 
 
 >Checkout Times
 
