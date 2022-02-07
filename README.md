@@ -138,7 +138,7 @@ As we can see from the above chart, the peak usage for the bikes coincides with 
 
 ![Week Days Start Time Heatmap](resources/weekdays_starttime_heatmap.png)
 
-The weekdays heatmaps is consistent with the usage of bikes during peak hours. There are more ridership during the weekdays rush hours. The highest ridership peaks at more than 44,000 in one hour slot.
+The weekdays heatmaps is consistent with the usage of bikes during peak hours. There are more ridership during the weekdays rush hours. The highest ridership peaks at more than 44,000.
 
 >Week Days Start Time Heatmap by Gender
 
@@ -160,7 +160,7 @@ The longest checkout time for one bike is around 5 minutes and this is pattern i
 
 ## Summary
 
-There are higher annual subscription riders in NYC compared to short-term riders for Citi Bike. 
+There are higher annual subscription riders in NYC compared to short-term riders for Citi Bike.
 
 USA Census in 2021
 Des Moines Population: 709,466
