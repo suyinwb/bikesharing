@@ -65,7 +65,7 @@ For this analysis, you’ll use Pandas to change the "tripduration" column from 
 5. What are the top bike stations in the city for Ending a journey?
 6. What is the gender breakdown of active riders? Citi Bike tells us that 0 represents "Unknown," 1 represents "Male," and 2 represents "Female."
 7. What is the average trip duration by age? In general, the later the birth year, the longer the ride duration.
-8. Which bikes are most likely de for repair?
+8. Which bikes are most likely due for repair?
 9. How variable is bike utilisation?
 
 Additional:
@@ -162,7 +162,7 @@ The longest checkout time for one bike is around 5 minutes and this is pattern i
 
 There are higher annual subscription riders in NYC compared to short-term riders for Citi Bike.
 
-USA Census in 2021
+*USA Census in 2021*
 Des Moines Population: 709,466
 New York City Population: 8,820,000
 
