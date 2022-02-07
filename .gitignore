@@ -6,3 +6,6 @@ config.js
 
 #data files
 *.csv
+
+#tableau files
+*.twbx
