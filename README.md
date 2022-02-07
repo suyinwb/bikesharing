@@ -89,7 +89,7 @@ My questions be:
 1. What's the ridership in NYC?
 2. Who are using the services?
 3. How are they paying?
-4. Profitability per trip / per user?
+4. Profitability per trip? Profitability per user?
 5. Any recurring revenues? Return clients?
 6. How far do they ride? Use an average minutes-to-km calculation. This will help manage the pickup/dropoff stations.
 7. Are the riders local or tourist?
