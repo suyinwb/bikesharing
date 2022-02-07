@@ -156,20 +156,36 @@ From the riders segmentation above, subscribers have higher usage during weekday
 
 ![Checkout Times](resources/checkout_times.png)
 
-The longest checkout time for one bike is around 5 minutes and this is pattern is consistent throughout the different genders.
+The highest checkout time for one bike is around 5 minutes and this is pattern is consistent throughout the different genders.
 
 ## Summary
 
-There are higher annual subscription riders in NYC compared to short-term riders for Citi Bike.
+2 additional visualisations suggested for the same dataset:
+1. Top Starting Stations with more than 10k bike checkout
+2. Top Ending Stations with more than 10K bike checkin
 
-*USA Census in 2021*
-Des Moines Population: 709,466
-New York City Population: 8,820,000
+There are higher annual subscription riders in NYC compared to short-term riders for Citi Bike. Most of the peak times for bike rides happened during weekdays office rush hours. While there is a higher proportion of male riders compared to female riders, both genders' usage patterns are the same, suggesting that we focus more on psychographic data than demographic data. The majority of weekday riders have annual subscriptions to Citi Bike.
 
-While the data from NYC is very positive for implementing a similar setup in a different city, we have enough data to answer these questions regarding Des Moines, Iowa:
+The highest checkout time is 5 minutes and that is approximately 1 mile of bike riding. Which is not a very long distance. Given the peak bike riding times and distance, most probably people are getting on the bikes from subway stations or cheaper parking spots to ride to their office in the morning and back again the evening. They would have checkin their bikes at any bike stations closer to their offices. We can confirm this by the additional visualisations below.
+
+>Top Start & End Stations with more than 10K Bikes Checkin / Checkout
+
+![Top Start & End Stations](resources/top_SE_stations.png)
+
+When we filter for only the checkin and checkout bike stations with more than 10K usage, we can see the same stations are displayed above in the map. That means the users are using the bikes with consistent behaviour for journeys like going to work. On top of that these bike stations are near to places like subway stations, bus depots, union stations / interchanges and/or parking spots to generate this amount of high traffic.
+
+It will be even better if we are able to overlay these maps with transit lines and buildings so we can gain even deeper insights into who we're serving (eg: most of the riders parked the bike near the station to World Trade Center, and therefore we can assume that most of our users work in that building).
+
+While it seems like a good model to replicate bike-share system in Des Moines, we to consider the points below:
+
+__USA Census in 2021__
+- Des Moines Population: 709,466
+- New York City Population: 8,820,000
+
+While the data from NYC is very positive for implementing a similar setup in a different city, we do not have enough data to answer these questions regarding Des Moines, Iowa:
 1. Is Des Moines walkable / have bike lines? What is the local transit infrastructure like?
 2. Is the city sprawling? If it is, then the general assumption is most people have cars and prefer to drive.
-
+3. Is there a large office building where a lot of people go to work in? If yes, is there good parking there?
 
 
 ## Appendix
