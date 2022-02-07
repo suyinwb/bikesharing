@@ -183,9 +183,10 @@ __USA Census in 2021__
 - New York City Population: 8,820,000
 
 While the data from NYC is very positive for implementing a similar setup in a different city, we do not have enough data to answer these questions regarding Des Moines, Iowa:
-1. Is Des Moines walkable / have bike lines? What is the local transit infrastructure like?
-2. Is the city sprawling? If it is, then the general assumption is most people have cars and prefer to drive.
-3. Is there a large office building where a lot of people go to work in? If yes, is there good parking there?
+1. The population of Des Moines is less than 10% of NYC, what is the pricing structure like in order to make a profit given costs of bikes and bike stations are fixed costs. 
+2. Is Des Moines walkable / have bike lines? What is the local transit infrastructure like?
+3. Is the city sprawling? If it is, then the general assumption is most people have cars and prefer to drive.
+4. Is there a large office building where a lot of people go to work in? If yes, is there good parking there?
 
 
 ## Appendix
