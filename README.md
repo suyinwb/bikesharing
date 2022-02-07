@@ -160,9 +160,11 @@ The highest checkout time for one bike is around 5 minutes and this is pattern i
 
 ## Summary
 
-2 additional visualisations suggested for the same dataset:
+4 additional visualisations suggested for the same dataset:
 1. Top Starting Stations with more than 10k bike checkout
 2. Top Ending Stations with more than 10K bike checkin
+3. Higher granularity on bike utilisation
+4. Higher granularity on bike repairs
 
 There are higher annual subscription riders in NYC compared to short-term riders for Citi Bike. Most of the peak times for bike rides happened during weekdays office rush hours. While there is a higher proportion of male riders compared to female riders, both genders' usage patterns are the same, suggesting that we focus more on psychographic data than demographic data. The majority of weekday riders have annual subscriptions to Citi Bike.
 
@@ -176,6 +178,8 @@ When we filter for only the checkin and checkout bike stations with more than 10
 
 It will be even better if we are able to overlay these maps with transit lines and buildings so we can gain even deeper insights into who we're serving (eg: most of the riders parked the bike near the station to World Trade Center, and therefore we can assume that most of our users work in that building).
 
+As the bikes start and end stations are generally in the same stations, there is no need to redistribute the bikes to different stations (which is what is happening in Taiwan due to more bikes going home outside of core downtown circle, therefore a truck will redistribute the bikes back to downtown core during off-peak hours).
+
 While it seems like a good model to replicate bike-share system in Des Moines, we to consider the points below:
 
 __USA Census in 2021__
@@ -183,7 +187,7 @@ __USA Census in 2021__
 - New York City Population: 8,820,000
 
 While the data from NYC is very positive for implementing a similar setup in a different city, we do not have enough data to answer these questions regarding Des Moines, Iowa:
-1. The population of Des Moines is less than 10% of NYC, what is the pricing structure like in order to make a profit given costs of bikes and bike stations are fixed costs. 
+1. The population of Des Moines is less than 10% of NYC, what is the pricing structure like in order to make a profit given costs of bikes and bike stations are fixed costs.
 2. Is Des Moines walkable / have bike lines? What is the local transit infrastructure like?
 3. Is the city sprawling? If it is, then the general assumption is most people have cars and prefer to drive.
 4. Is there a large office building where a lot of people go to work in? If yes, is there good parking there?
