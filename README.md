@@ -132,34 +132,35 @@ NYC Citi Bike utilisation for August 2019 is 2.34M with a large percentage of th
 
 ![Peak Hours](resources/peak_hours.png)
 
-As we can see from the above chart, the peak usage for the bikes coincides with rush hours at 8am-9am and 6pm-7pm. 
-
->Checkout Times
-
-![Checkout Times](resources/checkout_times.png)
-
-Lorem Ipsum
+As we can see from the above chart, the peak usage for the bikes coincides with rush hours at 8am-9am and 6pm-7pm.
 
 >Week Days Start Time Heatmap
 
 ![Week Days Start Time Heatmap](resources/weekdays_starttime_heatmap.png)
 
-Lorem Ipsum
+The weekdays heatmaps is consistent with the usage of bikes during peak hours. There are more ridership during the weekdays rush hours. The highest ridership peaks at more than 44,000 in one hour slot.
 
 >Week Days Start Time Heatmap by Gender
 
 ![Week Days Start Time Heatmap Gender](resources/weekdays_starttime_heatmap_bygender.png)
 
-Lorem Ipsum
-
+High ridership during office rush-hours is consistent throughout the different gender segmentation.
 
 >Subscribers VS Customers
 
 ![Subscribers VS Customers](resources/subscriber_vs_customer.png)
 
-Lorem Ipsum
+From the riders segmentation above, subscribers have higher usage during weekdays while short-term customers have higher usage during weekends.
+
+>Checkout Times
+
+![Checkout Times](resources/checkout_times.png)
+
+The longest checkout time for one bike is around 5 minutes and this is pattern is consistent throughout the different genders.
 
 ## Summary
+
+There are higher annual subscription riders in NYC compared to short-term riders for Citi Bike. 
 
 USA Census in 2021
 Des Moines Population: 709,466
