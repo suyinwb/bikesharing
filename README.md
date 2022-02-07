@@ -180,7 +180,8 @@ It will be even better if we are able to overlay these maps with transit lines a
 
 As the bikes start and end stations are generally in the same stations, there is no need to redistribute the bikes to different stations (which is what is happening in Taiwan due to more bikes going home outside of core downtown circle, therefore a truck will redistribute the bikes back to downtown core during off-peak hours).
 
-For future consideration, I will also like to find out bike utilisation vs buke repairs in order to maintain a safe system for the riders. 
+For future consideration, I will also like to find out bike utilisation vs buke repairs in order to maintain a safe system for the riders.
+
 
 While it seems like a good model to replicate bike-share system in Des Moines, we to consider the points below:
 
