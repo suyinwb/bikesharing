@@ -183,7 +183,7 @@ As the bikes start and end stations are generally in the same stations, there is
 For future consideration, I will also like to find out bike utilisation vs buke repairs in order to maintain a safe system for the riders.
 
 
-While it seems like a good model to replicate bike-share system in Des Moines, we to consider the points below:
+While it seems like a good model to replicate bike-share system in Des Moines, we need to consider the points below:
 
 __USA Census in 2021__
 - Des Moines Population: 709,466
