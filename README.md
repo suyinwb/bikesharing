@@ -198,6 +198,8 @@ While the data from NYC is very positive for implementing a similar setup in a d
 
 ## Appendix
 
+Dashboard Best Practices: https://help.tableau.com/current/pro/desktop/en-us/dashboards_best_practices.htm
+
 DESIGNING DASHBOARD
 
 The main purpose of a dashboard is not necessarily to tell a story, but rather to display data in a readable format.
