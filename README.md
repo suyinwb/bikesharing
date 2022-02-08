@@ -69,9 +69,13 @@ For this analysis, you’ll use Pandas to change the "tripduration" column from 
 9. How variable is bike utilisation?
 
 Additional:
+
 10. Show the length of time that bikes are checked out for all riders and genders
+
 11. Show the number of bike trips for all riders and genders for each hour of each day of the week
+
 12. Show the number of bike trips for each type of user and gender for each day of the week.
+
 13. Finally, you’ll add these new visualizations to the two you created in this module for your final presentation and analysis to pitch to investors.
 
 ## Analysis And Challenges
